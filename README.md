@@ -14,8 +14,13 @@ Main features
 - a upvote/downvote mechanism,
 - uploading images to AWS S3...
 
-2. Utils page - to create fake data for simulation
+2. Utils page - to create sample data for simulation
 
 - create /pages/utils.js
 - create /pages/api/utils.js endpoint
 - npm install -D @faker-js/faker
+
+3. Show posts on homepage
+
+- npm install javascript-time-ago
+- create Post and Posts component and implement those posts into Index page
