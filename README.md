@@ -13,3 +13,9 @@ Main features
 - nested comments,
 - a upvote/downvote mechanism,
 - uploading images to AWS S3...
+
+2. Utils page - to create fake data for simulation
+
+- create /pages/utils.js
+- create /pages/api/utils.js endpoint
+- npm install -D @faker-js/faker
