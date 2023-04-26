@@ -23,4 +23,10 @@ Main features
 3. Show posts on homepage
 
 - npm install javascript-time-ago
-- create Post and Posts component and implement those posts into Index page
+- create Post and Posts component and show posts into Index page
+
+4. Implement authentication
+
+- add header with login/logout button to home page,
+- after login, user must choose username,
+- setup page and setup endpoint to set user name after successtull login
