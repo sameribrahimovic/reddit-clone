@@ -30,3 +30,11 @@ Main features
 - add header with login/logout button to home page,
 - after login, user must choose username,
 - setup page and setup endpoint to set user name after successtull login
+
+5. Create the single subreddit view
+
+- create /pages/r/[subreddit].js - dynamic page that receives the name of a subreddit as the parameter
+- in lib.data.js make 2 functions :
+  - `getSubreddit()` to get the details of a subreddit (so we can check if it actually exists)
+  - `getPostsFromSubreddit()` to get the posts of a specific subreddit.
+  - on home page add link to the subreddit, and on the subreddit view add link to back as to home page
