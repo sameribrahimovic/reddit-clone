@@ -38,3 +38,9 @@ Main features
   - `getSubreddit()` to get the details of a subreddit (so we can check if it actually exists)
   - `getPostsFromSubreddit()` to get the posts of a specific subreddit.
   - on home page add link to the subreddit, and on the subreddit view add link to back as to home page
+
+6. Create the single post view
+
+- create r/[subreddit]/comments/[id].js file to build the single post view,
+- add getPost() method to lib/data.js
+- add links on home page that direct us on single post page
