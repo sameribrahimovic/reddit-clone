@@ -47,4 +47,9 @@ Main features
 
 7. User can add comments
 
-- /components/NewComment.js - add a form to let people comment
+- /components/NewComment.js - add a form to let people comment,
+
+8. Show user comments under the post
+
+- crete Comments component that contains Comment component,
+- include Comments component into comments/[id].js
