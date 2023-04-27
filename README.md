@@ -45,4 +45,6 @@ Main features
 - add getPost() method to lib/data.js
 - add links on home page that direct us on single post page
 
-7.
+7. User can add comments
+
+- /components/NewComment.js - add a form to let people comment

@@ -29,9 +29,9 @@ export default function Home({ posts }) {
       <header className="bg-gray-700 text-white h-12 flex pt-3 px-5 pb-2">
         <p>Reddit clone</p>
         <p className="grow"></p>
-        <p className="mr-5 ">
+        {/* <p className="mr-5 ">
           Hello <span className="font-bold">{session.user.name}</span>
-        </p>
+        </p> */}
         <a
           className="flex-l border px-4 font-bold rounded-full mb-1"
           href={session ? "/api/auth/signout" : "/api/auth/signin"}
