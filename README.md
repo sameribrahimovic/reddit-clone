@@ -44,3 +44,5 @@ Main features
 - create r/[subreddit]/comments/[id].js file to build the single post view,
 - add getPost() method to lib/data.js
 - add links on home page that direct us on single post page
+
+7.
