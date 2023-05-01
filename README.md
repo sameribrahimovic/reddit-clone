@@ -58,3 +58,9 @@ Main features
 
 - add arrows(send a request to make vote or upvote) and numbers on [id] page and make them dynamic,
 - use the upsert() method provided by Prisma to update or insert a value if it’s not there
+
+10. Crete new post by user
+
+- create submit.js that contains form to send POST request to /api/post,
+- add link to the new post form page from the subreddit page,
+- show create new post form only if user are logged in
