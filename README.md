@@ -78,3 +78,7 @@ Main features
 - change data.js file in getPost method to be able to fetch comments made to comments,
 - introduce two new helper functions fetchCommentsOfComments - calls getComments() that is responsible for actually fetching commentsfrom db,
 - in getComments() we check if there is a comment to a comment and call fetchCommentsOfComments again wich is recursion!
+
+12. Uploade image ?
+
+13. User profile

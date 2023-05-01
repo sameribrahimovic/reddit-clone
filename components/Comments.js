@@ -1,13 +1,18 @@
 import NewComment from "./NewComment";
 import timeago from "lib/timeago";
 import { useState } from "react";
+import Link from "next/link";
 
 const Comment = ({ comment, post }) => {
   const [showReply, setShowReply] = useState(false);
   return (
     <div className=" mt-6">
       <p>
-        {comment.author.name} {timeago.format(new Date(comment.createdAt))}
+        Posted by
+        <Link href={`/u/${post.author.name}`}>
+          <a className="ml-1 underline">{post.author.name}</a>
+        </Link>{" "}
+        {timeago.format(new Date(comment.createdAt))}
       </p>
       <p>{comment.content}</p>
       {showReply ? (
