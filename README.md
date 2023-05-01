@@ -53,3 +53,8 @@ Main features
 
 - crete Comments component that contains Comment component,
 - include Comments component into comments/[id].js
+
+9. Upvote/downvote posts
+
+- add arrows(send a request to make vote or upvote) and numbers on [id] page and make them dynamic,
+- use the upsert() method provided by Prisma to update or insert a value if it’s not there
