@@ -64,3 +64,17 @@ Main features
 - create submit.js that contains form to send POST request to /api/post,
 - add link to the new post form page from the subreddit page,
 - show create new post form only if user are logged in
+
+11. User can comment to other comments
+
+- make a change into schema - Comments add :
+  parentId Int?
+  parent Comment? @relation("ParentComment", fields: [parentId], references: [id])
+  Comment Comment[] @relation("ParentComment")
+
+- put a “reply” text/link below each comment, and on click show reply form,
+- reuse NewComment component, and if reply button is clicked then show this component
+  so that user can reply on existing comment,
+- change data.js file in getPost method to be able to fetch comments made to comments,
+- introduce two new helper functions fetchCommentsOfComments - calls getComments() that is responsible for actually fetching commentsfrom db,
+- in getComments() we check if there is a comment to a comment and call fetchCommentsOfComments again wich is recursion!

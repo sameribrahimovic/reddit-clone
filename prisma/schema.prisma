@@ -94,6 +94,10 @@ model Comment {
   authorId  String
   post      Post?    @relation(fields: [postId], references: [id])
   postId    Int?
+  //to make other user can comment on existing comment
+  parentId  Int?
+  parent    Comment?  @relation("ParentComment", fields: [parentId], references: [id])
+  Comment   Comment[] @relation("ParentComment")
 }
 
 model Vote {
