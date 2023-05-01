@@ -26,7 +26,7 @@ export default function Home({ posts }) {
         <meta name="description" content="A great social network!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header className="bg-gray-700 text-white h-12 flex pt-3 px-5 pb-2">
+      <header className="bg-gray-800 text-white h-12 flex pt-3 px-5 pb-2">
         <p>Reddit clone</p>
         <p className="grow"></p>
         {/* <p className="mr-5 ">
