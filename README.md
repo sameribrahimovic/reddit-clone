@@ -82,3 +82,14 @@ Main features
 12. Uploade image ?
 
 13. User profile
+
+- proposals to improve the app :
+
+* Let users create new subreddits
+* Let users vote comments
+* Check the files size and type (only images) in the backend too
+* Also show comments in user profile
+* Handle if user chooses same username as another user
+* Let people join subreddits and influence what they see on the homepage
+* Implement pagination in lists
+* Prompt users to login when they try to upvote a post
